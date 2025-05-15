@@ -1,45 +1,67 @@
-# Hackintosh Lenovo Thinkpad L13 Touchscreen
-<center> <img src="https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8Njk4MzF8aW1hZ2UvanBlZ3xoNTkvaGU1LzEwNjAxODU4NDk4NTkwLmpwZ3xhZmY2YTYyODBmMWMxNDk1MGQ3MDI2ZjkxNjVlMjcwZTY4NzBjOGM5MTZkZGExM2RmNzg5ODJjYTFlNWYwZjM1/bWFzdGVyfH.jpg" width="90%"></img>  </center>
+# Lenovo ThinkPad L13 Hackintosh – macOS Monterey (OpenCore)
 
-# Specs
+Running macOS Monterey 12.4 on the **Lenovo ThinkPad L13** using **OpenCore v0.8**  
+This setup achieves solid macOS compatibility with most features fully functional.
 
-- Model: Lenovo Thinkpad L13
-- Intel® Core™ i5 U-Processor 10210u 
-- Graphics Intel UHD
-- Display 14.0" FHD (1920x1080), IPS-Level, Touchscreen
-- 16GB DDR4 RAM DDR4-2666
-- 1x M.2 SSD Combo slot (NVMe PCIe Gen3 / SATA) (Storage M.2 SSD 256GB Orico)
-- Wireless 802.11 ac Wi-Fi + Bluetooth v5
-- Backlight Keyboard (Single-Color, White)
-- Camera HD type (30fps@720p)
+---
 
-# Hack Status
+## 💻 Hardware Specifications
 
-- OS: **macOS Monterey 12.4**
-- Bootloader: **OPENCORE v0.8**
+| Component        | Details                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| Model            | Lenovo ThinkPad L13                                                     |
+| Processor        | Intel® Core™ i5-10210U (Comet Lake)                                     |
+| Graphics         | Intel UHD Graphics                                                      |
+| Display          | 14.0" Full HD (1920x1080) IPS Touchscreen                               |
+| RAM              | 16 GB DDR4-2666                                                         |
+| Storage          | 256 GB Orico M.2 SSD (NVMe PCIe Gen3 / SATA compatible)                |
+| Wireless         | 802.11ac Wi-Fi + Bluetooth v5                                           |
+| Keyboard         | Backlit (Single-color, White)                                           |
+| Camera           | HD webcam (720p @ 30fps)                                                |
 
+---
 
-<summary><strong>What's working ✅</strong></summary>
+## ⚙️ Hackintosh Status
 
-- [x] Battery percentage
-- [x] Bluetooth 
-- [x] Wifi
-- [x] CPU power management
-- [x] GPU UHD hardware acceleration / performance 
-- [x] iMessage, FaceTime, App Store, iTunes Store. `Generate your own SMBIOS`
-- [x] Keyboard `Volume and brightness hotkeys`
-- [x] Audio
-- [x] Microphone
-- [x] Sleep/Wake 
-- [x] TrackPoint
-- [x] USB Ports
-- [x] Web camera
-- [x] HDMI
-- [x] Touchscreen
+**OS:** macOS Monterey 12.4  
+**Bootloader:** [OpenCore v0.8](https://github.com/acidanthera/OpenCorePkg)
 
+---
 
-<summary><strong>Not Tested ⚠️</strong></summary>
-- [ ] SD Card reader
+### ✅ What's Working
 
-# Do with your own risk
-[![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+- ✅ Battery percentage  
+- ✅ Bluetooth  
+- ✅ Wi-Fi  
+- ✅ CPU power management  
+- ✅ Intel UHD graphics acceleration  
+- ✅ iMessage, FaceTime, App Store, iTunes Store *(Generate your own SMBIOS)*  
+- ✅ Audio (input/output)  
+- ✅ Microphone  
+- ✅ Sleep/Wake  
+- ✅ Keyboard hotkeys (brightness, volume)  
+- ✅ TrackPoint  
+- ✅ USB ports  
+- ✅ HDMI output  
+- ✅ Touchscreen  
+- ✅ Web camera  
+
+---
+
+### ⚠️ Not Tested
+
+- [ ] SD card reader
+
+---
+
+## 📝 Notes
+
+- This configuration is shared **as-is** and is **not actively maintained**.  
+- Always **generate your own SMBIOS** before signing in to iCloud services.  
+- Use at your own risk.
+
+---
+
+## 📦 Disclaimer
+
+This project is for educational purposes. Hackintoshing can void warranties or violate software terms. Proceed with caution.
